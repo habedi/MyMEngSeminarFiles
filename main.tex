@@ -1,0 +1,53 @@
+
+\documentclass[a4paper,oneside,anyway]{book}%[a4paper,titlepage,oneside]{book}
+
+%\input{premeable-chap} %{اگه می خواین نسخه‌ی چاپی درست کنید}
+\input{premeable}
+
+\begin{document}
+\pagestyle{empty}
+
+\pagenumbering{harfi} % alphateical 
+\tableofcontents \newpage
+\listoffigures \newpage
+\listoftables \newpage
+\pagestyle{fancy}
+\lhead{\includegraphics[width=2.1cm]{figures/by-sa}}
+
+\DefaultMathsDigits
+
+\usepackage{titlesec}
+\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{5pt plus 5pt minus 2pt}
+\titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{5pt plus 5pt minus 2pt}
+\titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{5pt plus 5pt minus 2pt}
+
+\pagenumbering{arabic} % numerical
+
+\input{chapters/chapter_1}
+
+\input{chapters/chapter_2}
+
+\input{chapters/chapter_3}
+
+\input{chapters/chapter_4}
+
+\begingroup
+\inputencoding{latin1}
+\settextfont[Scale=1.25]{Times New Roman}
+\renewcommand{\baselinestretch}{1.1} 
+\pagestyle{empty}
+{
+\bibliographystyle{ieeetr-fa}%{chicago-fa}%{acm-fa}%{plainnat-fa}%{unsrt-fa}%{asa-fa}%{plain-fa}
+\bibliography{bibs/main,bibs/add,bibs/dummy_refs}
+
+}
+%\nocite{*}
+\endgroup
+
+\include{chapters/dicfa2en}
+\include{chapters/dicen2fa}
+
+\end{document}
+
+
+

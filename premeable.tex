@@ -1,0 +1,131 @@
+\usepackage{amsthm,amssymb,amsmath,mathtools}
+\usepackage[font=small,labelfont=bf]{caption}
+
+\usepackage[titles]{tocloft}
+%\usepackage{minitoc}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage[headheight=110pt]{geometry}
+ \geometry{
+ a4paper,
+ %total={210mm,297mm},
+ left=25mm,
+ right=40mm,
+ top=30mm,
+ bottom=30mm,
+ }
+\usepackage{titlesec}
+\usepackage{longtable}
+\usepackage{titlepic}
+\usepackage[nottoc,notlot,notlof]{tocbibind}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+%\definecolor{MSBlue}{rgb}{.204,.353,.741}
+\usepackage{hyperref}
+\hypersetup{
+   % bookmarks=true,         % show bookmarks bar?
+    unicode=true,          % non-Latin characters in Acrobat’s bookmarks
+    pdftoolbar=true,        % show Acrobat’s toolbar?
+    pdfmenubar=true,        % show Acrobat’s menu?
+    pdffitwindow=false,     % window fit to page when opened
+    pdfstartview={FitH},    % fits the width of the page to the window
+    pdftitle={Information Diffusion report},    % title
+    pdfauthor={Hassan Abedi},     % author
+    pdfsubject={Information Diffusion},   % subject of the document
+    pdfcreator={hassan abedi},   % creator of the document
+    pdfproducer={hassan abedi}, % producer of the document
+    pdfkeywords={Information Diffusion} {Social Networks}, % list of keywords
+    pdfnewwindow=true,      % links in new window
+    colorlinks=false,       % false: boxed links; true: colored links
+    linkcolor=blue,%blue,%MSBlue,          % color of internal links (change box color with linkbordercolor)
+    citecolor=blue,        % color of links to bibliography
+    filecolor=magenta,      % color of file links
+    urlcolor=magneta %cyan    % color of external links
+    }
+
+\usepackage{hyperref}
+\usepackage{xepersian}
+\usepackage[nospace,noadjust]{cite}
+\usepackage{enumitem}
+\usepackage{zref-perpage}
+\usepackage{textcomp}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{url}
+\usepackage{footmisc}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\renewcommand{\baselinestretch}{2} 
+\usepackage{lastpage}
+\renewcommand{\citeleft}{[}
+\renewcommand{\citeright}{]}
+\usepackage{breakcites}
+\usepackage{setspace}
+
+\newlength\mylenprt
+\newlength\mylenchp
+\newlength\mylenapp
+
+\renewcommand\cftpartpresnum{~}
+\renewcommand\cftchappresnum{\chaptername~}
+\renewcommand\cftchapaftersnum{:}
+
+\settowidth\mylenprt{\cftpartfont\cftpartpresnum\cftpartaftersnum}
+\settowidth\mylenchp{\cftchapfont\cftchappresnum\cftchapaftersnum}
+\settowidth\mylenapp{\cftchapfont\appendixname~\cftchapaftersnum}
+\addtolength\mylenprt{\cftpartnumwidth}
+\addtolength\mylenchp{\cftchapnumwidth}
+\addtolength\mylenapp{\cftchapnumwidth}
+
+\setlength\cftpartnumwidth{\mylenprt}
+\setlength\cftchapnumwidth{\mylenchp}	
+
+\makeatletter
+{\def\thebibliography#1{\chapter*{\refname\@mkboth
+   {\uppercase{\refname}}{\uppercase{\refname}}}\list
+   {[\arabic{enumi}]}{\settowidth\labelwidth{[#1]}
+   \rightmargin\labelwidth
+   \advance\rightmargin\labelsep
+   \advance\rightmargin\bibindent
+   \itemindent -\bibindent
+   \listparindent \itemindent
+   \parsep \z@
+   \usecounter{enumi}}
+   \def\newblock{}
+   \sloppy
+   \sfcode`\.=1000\relax}}
+\makeatother
+
+\renewcommand{\bibname}{مراجع}
+\newcommand{\head}[1]{\textnormal{\textbf{#1}}}
+\newtheorem{thm}{Theorem}[chapter]
+\newtheorem{lem}[thm]{Lemma}
+\theoremstyle{definition}
+\newtheorem{dfn}[thm]{Definition}
+
+\usepackage{fontspec}
+\settextfont[Scale=1.4]{B Nazanin}
+\setdigitfont[Scale=1]{B Nazanin}
+\setlatintextfont[Scale=1]{Times New Roman}
+\defpersianfont\titlefont[Scale=1]{B Nazanin}
+
+
+\makeatletter
+\def\tagform@#1{\maketag@@@{)#1(\@@italiccorr}}
+\makeatother
+
+\numberwithin{table}{section}
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+
+\makeatletter
+     \renewcommand*\l@figure{\@dottedtocline{1}{1em}{3.2em}}
+\makeatother
+
+\makeatletter
+     \renewcommand*\l@table{\@dottedtocline{1}{1em}{3.2em}}
+\makeatother
+
+\newcommand\persiangloss[2]{#1\dotfill\lr{#2}\\}
+% دستوری برای تعریف واژه‌نامه فارسی به انگلیسی 
+\newcommand\englishgloss[2]{#2\dotfill\lr{#1}\\}

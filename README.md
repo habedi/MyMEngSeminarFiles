@@ -1,15 +1,15 @@
-گزارش سمینار ارشد مهندسی نرم افزار با عنوان:
+گزارش سمینار ارشد مهندسی نرم افزار با عنوان
 ---
 
  "بررسی پخش اطلاعات در شبکه‌های آنلاین اجتماعی"
 ---
 
-A survey of information diffusion in online social networks
+Information diffusion in online social networks
 =============================================================
 
 ![Homophily](https://github.com/habedi/me-MSc-Seminar/blob/master/figures/GEN/homophily1.png "homophily")
 
-پوشه‌ها:
+پوشه‌ها
 ---
 
   1. درون پوشه‌ی bibs فایل‌های مراجع به فرمت bibtex  قرار دارند.
@@ -20,7 +20,7 @@ A survey of information diffusion in online social networks
   6. درون پوشه‌ی titlepages فایل‌های مربوط به صفحه‌های عنوان گزارش قرار دارند.
 
 
-فایل‌ها:
+فایل‌ها
 ---
 
   1. main.tex فایل‌اصلی گزارش.

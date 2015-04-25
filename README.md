@@ -1,21 +1,16 @@
-<p align="right">
+<p align="center">
 گزارش سمینار ارشد مهندسی نرم افزار با عنوان
----
-</p>
-<p align="right">
- "بررسی پخش اطلاعات در شبکه‌های آنلاین اجتماعی"
----
 </p>
 <p align="center">
+ "بررسی پخش اطلاعات در شبکه‌های آنلاین اجتماعی"
+</p>
+
 Information diffusion in online social networks
 =============================================================
-</p>
-<p align="center">
+
 ![Homophily](https://github.com/habedi/me-MSc-Seminar/blob/master/figures/GEN/homophily1.png "homophily")
-</p>
-<p align="right">
+
 پوشه‌ها
----
 
   1. درون پوشه‌ی bibs فایل‌های مراجع به فرمت bibtex  قرار دارند.
   2. درون پوشه‌ی chapters فایل‌های tex متن هر فصل گزارش قرار دارد.
@@ -24,12 +19,8 @@ Information diffusion in online social networks
   5. درون پوشه‌ی supps فایل‌های کمکی برای نوشتن گزارش قرار دارند.
   6. درون پوشه‌ی titlepages فایل‌های مربوط به صفحه‌های عنوان گزارش قرار دارند.
 
-</p>
-<p align="right">
 فایل‌ها
----
 
   1. main.tex فایل‌اصلی گزارش.
   2. premeable.tex  فایل‌ تنظیمات latex
   3. premeable-chap.tex  فایل‌ تنظیمات latex برای تولید نسخه‌ی چاپی گزارش
-</p>

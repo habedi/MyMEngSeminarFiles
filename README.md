@@ -8,6 +8,8 @@
 Information diffusion in online social networks
 =============================================================
 
+[![GitHub issues](https://img.shields.io/github/issues/habedi/me-MSc-Seminar.svg)](https://github.com/habedi/me-MSc-Seminar/issues)	[![GitHub forks](https://img.shields.io/github/forks/habedi/me-MSc-Seminar.svg)](https://github.com/habedi/me-MSc-Seminar/network)	[![GitHub stars](https://img.shields.io/github/stars/habedi/me-MSc-Seminar.svg)](https://github.com/habedi/me-MSc-Seminar/stargazers)
+
 ![Homophily](https://github.com/habedi/me-MSc-Seminar/blob/master/figures/GEN/homophily1.png "homophily")
 
 پوشه‌ها

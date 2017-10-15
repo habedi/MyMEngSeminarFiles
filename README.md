@@ -32,5 +32,5 @@ Information diffusion in online social networks
 
 
     1. main.tex فایل‌اصلی گزارش.
-    2. premeable.tex  فایل‌ تنظیمات latex
-    3. premeable-chap.tex  فایل‌ تنظیمات latex برای تولید نسخه‌ی چاپی گزارش
+    2. premeable.tex  فایل‌ تنظیمات tex
+    3. premeable-chap.tex  فایل‌ تنظیمات tex برای تولید نسخه‌ی چاپی گزارش

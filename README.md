@@ -35,4 +35,4 @@ Information diffusion in online social networks
     2. premeable.tex  فایل‌ تنظیمات tex
     3. premeable-chap.tex  فایل‌ تنظیمات tex برای تولید نسخه‌ی چاپی گزارش
 
-# روی دبیان ۸ آزمایش شده است.
+### روی دبیان ۸ آزمایش شده است

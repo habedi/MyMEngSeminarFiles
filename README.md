@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
- "بررسی پخش اطلاعات در شبکه‌های آنلاین اجتماعی"
+ "پخش اطلاعات در شبکه‌های آنلاین اجتماعی"
 </p>
 
 Information diffusion in online social networks

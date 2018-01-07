@@ -15,9 +15,9 @@ Information diffusion in online social networks
 
 ![Homophily](https://github.com/habedi/me-MSc-Seminar/blob/master/figures/GEN/homophily1.png "homophily")
 
-<div align="right">
+<div dir="rtl">
 
-پوشه‌ها
+ ### پوشه‌ها
 
 
     1. درون پوشه‌ی bibs فایل‌های مراجع به فرمت bibtex  قرار دارند.
@@ -28,7 +28,7 @@ Information diffusion in online social networks
     6. درون پوشه‌ی titlepages فایل‌های مربوط به صفحه‌های عنوان گزارش قرار دارند.
 
     
-فایل‌ها
+### فایل‌ها
 
 
     1. main.tex فایل‌اصلی گزارش.

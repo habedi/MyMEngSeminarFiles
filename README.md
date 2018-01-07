@@ -15,6 +15,8 @@ Information diffusion in online social networks
 
 ![Homophily](https://github.com/habedi/me-MSc-Seminar/blob/master/figures/GEN/homophily1.png "homophily")
 
+<div align="right">
+
 <div dir="rtl">
 
  ### پوشه‌ها
